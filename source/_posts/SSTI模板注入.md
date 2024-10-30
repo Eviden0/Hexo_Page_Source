@@ -4,12 +4,14 @@ date: '2024-5-31 21:49'
 categories: CTF
 tags: 注入
 description: SSTI模板注入
-abbrlink: 47d18edd
+abbrlink: 47d18eddca
 ---
 
 
 
+参看所有收录EXP:
 
+`[SSTI (Server Side Template Injection) | HackTricks | HackTricks](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#python)`
 
 # [SSTI (Server Side Template Injection)](https://www.raingray.com/archives/4183.html)
 

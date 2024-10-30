@@ -13,9 +13,9 @@ menu:
     影院: /life/movies/ ||icon-dianying1 || faa-tada
     游戏: /life/games/ || icon-youxishoubing || faa-tada
   # 八宝箱 || icon-xiangzi || faa-tada || hide:
-    # 画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
-    # 动画: /box/animation/ || icon-nvwumao || faa-tada
-    # 网址导航: /box/nav/ || icon-zhifengche || faa-tada
+  # 画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
+  # 动画: /box/animation/ || icon-nvwumao || faa-tada
+  # 网址导航: /box/nav/ || icon-zhifengche || faa-tada
   社交 || icon-shejiaoxinxi || faa-tada || hide:
     朋友圈: /social/fcircle/ || icon-pengyouquan || faa-tada
     留言板: /comments/ || icon-liuyan || faa-tada
@@ -169,7 +169,6 @@ cover:
     - https://s1.vika.cn/space/2024/02/28/c24645940b0b4ea78fd5bf554e5b7c15
     - https://s1.vika.cn/space/2024/02/28/457a0f4e84d04159891d645ed060a054
     - https://s1.vika.cn/space/2024/02/28/8cbb2389199b44b7a42dadaf09efa18a
-
 
     # ...
 
@@ -393,7 +392,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: 
+  envId:
   region:
   visitor: false
   option:
@@ -470,7 +469,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: 
+baidu_analytics:
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -556,14 +555,14 @@ tag_ui: # 留空或 index
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # "#e4f4f6" "#efefef"
 background:
-  #【必选】默认背景 
+  #【必选】默认背景
   # default: var(--default-bg)
   default: url(https://webpage-images.pages.dev/bac.jpeg)
-  #【可选】PC端夜间模式背景 
+  #【可选】PC端夜间模式背景
   darkmode: var(--darkmode-bg)
-  #【可选】移动端日间默认背景 
+  #【可选】移动端日间默认背景
   mobileday: var(--mobileday-bg)
-  #【可选】移动端夜间模式背景 
+  #【可选】移动端夜间模式背景
   mobilenight: var(--mobilenight-bg)
 
 # Footer Background
@@ -933,7 +932,7 @@ inject:
     - <style id="menu_shadow"></style> # 菜单发光样式
 
   bottom:
-    - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
+    - <script src="https://gitee.com/eviden/img/raw/master/jquery.min.js"></script> # jQuery
     - <script async src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script> # VUE
     - <script async src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script> # ElementUI
     - <script async src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script> # 分享按钮依赖
@@ -943,7 +942,7 @@ inject:
     - <script async src="//at.alicdn.com/t/c/font_3586335_hsivh70x0fm.js"></script> # js图标引入1
     - <script async src="//at.alicdn.com/t/c/font_3636804_gr02jmjr3y9.js"></script> # js图标引入2
     - <script async src="//at.alicdn.com/t/c/font_3612150_kfv55xn3u2g.js"></script> # js图标引入3
-    - <script async src="https://cdn.wpon.cn/2022-sucai/Gold-ingot.js"></script>  # 新年元宝
+    - <script async src="https://cdn.wpon.cn/2022-sucai/Gold-ingot.js"></script> # 新年元宝
     - <canvas id="universe"></canvas> # 星空画布
     - <canvas id="snow"></canvas> # 雪花画布
     - <script defer src="/js/fomal.js"></script> # 主模块js
@@ -1002,7 +1001,8 @@ CDN:
     typed: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js
     # pangu:
     fancybox_css_v4: https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.min.css
-    fancybox_v4: https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.umd.min.js
+    # fancybox_v4: https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.umd.min.js
+    fancybox_v4: https://gitee.com/eviden/img/raw/master/fancybox.umd.min.js
     # medium_zoom: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/medium-zoom/1.0.6/medium-zoom.min.js
     # snackbar_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css
     # snackbar: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js
@@ -1126,7 +1126,8 @@ tag_plugins:
     placeholder: "/assets/coffee.png" #link_card标签默认的图标图片
   CDN:
     anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js #issues标签依赖
+    # jquery: https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js #issues标签依赖
+    jquery: https://gitee.com/eviden/img/raw/master/jquery.min.js #issues标签依赖
     issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
     carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
